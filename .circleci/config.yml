@@ -22,7 +22,7 @@ jobs:
           command: "curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s $REVIEWDOG_VERSION"
       - run:
           name: lint for ja
-          command: "$(npm bin)/textlint -f checkstyle documents/*.md | tee check_result"
+          command: "$(npm bin)/textlint -f checkstyle ./documents/*.md | tee check_result"
       - run:
           name: reviewdog
           command: >
