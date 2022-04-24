@@ -1,6 +1,6 @@
 d`- [ ]` is a code and not error.
 
-dfkjfかdsjfじゃkさぁああああああああああいいいいいいあいあいあいですです。
-aa
+dfkjfかdsjfじゃkさぁああああああああああよいよいよいあいあいあいですです。
+aa。
 
-伺う
+うかがう。
