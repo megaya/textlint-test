@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "ja-hiragana-daimeishi": true,
+    "ja-hiragana-fukushi": true,
+    "ja-hiragana-hojodoushi": true,
+    "ja-keishikimeishi": true,
+    "ja-nakaguro-or-halfwidth-space-between-katakana": true,
+    "ja-no-abusage": true,
+    "ja-no-mixed-period": true,
+    "ja-no-redundant-expression": true,
+    "ja-no-space-around-parentheses": true,
+    "ja-no-space-between-full-width": true,
+    "ja-space-after-exclamation": true,
+    "ja-space-after-question": true,
+    "ja-space-around-code": true,
+    "ja-space-between-half-and-full-width": true,
+    "max-ten": true,
+    "no-double-negative-ja": true,
+    "no-doubled-conjunction": true,
+    "no-doubled-conjunctive-particle-ga": true,
+    "no-doubled-joshi": true,
+    "no-dropping-the-ra": true,
+    "no-hankaku-kana": true,
+    "no-mix-dearu-desumasu": true,
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "no-nfd": true,
+    "sentence-length": true,
+    "prh": {
+      "rulePaths": [
+        "lib/my-rule.yml"
+      ]
+    }
+  }
+}
