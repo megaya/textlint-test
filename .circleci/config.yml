@@ -7,6 +7,8 @@ jobs:
           REVIEWDOG_VERSION: latest
     steps:
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true
       - restore_cache:
           keys:
             - npm-cache-{{ checksum "package-lock.json" }}
