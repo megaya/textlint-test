@@ -1,5 +1,0 @@
-rules:
-  - pattern: いい
-    expected: よい
-  - pattern: 伺う
-    expected: うかがう
